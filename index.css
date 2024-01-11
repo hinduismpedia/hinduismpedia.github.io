@@ -1,0 +1,310 @@
+@font-face {
+    font-family: 'Source Sans Pro Regular';
+    font-style: normal;
+    src: url(assets/fonts/source-sans-pro/sourcesanspro-regular.ttf);
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Semibold';
+    font-style: normal;
+    src: url(assets/fonts/source-sans-pro/sourcesanspro-semibold.ttf);
+}
+
+@font-face {
+    font-family: 'Upgrade Devanagari Medium';
+    font-style: normal;
+    src: url(assets/fonts/upgrade-devanagari/Upgrade-Devanagari-Medium.otf) format("opentype");
+}
+
+@font-face {
+    font-family: 'Upgrade Devanagari Regular';
+    font-style: normal;
+    src: url(assets/fonts/upgrade-devanagari/Upgrade-Devanagari-Regular.otf) format("opentype");
+}
+
+p {
+    font-size: 16px;
+    font-family: "Upgrade Devanagari Regular";
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.container {
+    max-width: 1250px;
+}
+
+.top-row {
+    padding: 10px 0;
+}
+
+.padding-left-70 {
+    padding-left: 70px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.col-logo {
+ max-width: 6%;
+}
+
+.top-title{
+    margin-top: 12px;
+    margin-right: 40px;
+    font-size: 32px; 
+    color: #000; 
+    letter-spacing: 2px;
+    font-family: "Upgrade Devanagari Regular";
+}
+
+.top-block {
+    background-color: #9c5c5c;
+    color: #fff;
+    font-family: "Upgrade Devanagari Regular";
+    padding: 5.5px 0;
+}
+
+.top-middle-block {
+    background-color: #5e2121;
+    padding-left: 10px;
+}
+
+.col-top-middle-block-right {
+    margin: 20px 40px 0 40px;
+}
+
+.text-digitally {
+    color: #f2ce9e;
+    font-size: 40px;
+    font-family: 'Newsreader', serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.text-top-middle-block-right {
+    color: #b69d7e;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.input-group {
+    margin-top: 10px;
+}
+
+.input-group-text {
+    background-color: #fff;
+}
+
+.search-input {
+    margin: 0 20px;
+}
+
+.advanced-search-text {
+    margin-right: 20px;
+}
+
+.top-bottom-block {
+    background-color: #5f4444;
+    padding: 10px;
+}
+
+.text-top-bottom-block-top {
+    color: #fff;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-bottom: 0;
+}
+
+.text-top-bottom-block-bottom {
+    font-size: 16px;
+    color: #fff;
+    font-family: "Upgrade Devanagari Regular";
+    margin-bottom: 0;
+}
+
+.row-block {
+    margin: 40px 0;
+}
+
+.text-sub-video {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.yellow-block {
+    background-color: #d1af83;
+    padding: 40px 10px;
+}
+
+.h3-red {
+    color: #5d2121;
+    font-family: "Upgrade Devanagari Medium";
+    text-align: center;
+    font-size: 22px;
+}
+
+.h3-red-row {
+    margin-bottom: 10px;
+}
+
+
+.resources-box {
+    background-color: #fff;
+    box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 170px;
+}
+
+.box-h4, .tab-h4 {
+    font-size: 16px;
+    font-family: "Upgrade Devanagari Medium";
+    margin-bottom: 0;
+}
+
+.box-hr, .tab-hr {
+    margin: 5px 0;
+}
+
+.box-ul, .tab-ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.box-li, .box-li a {
+    color: #5e4443;
+    font-family: "Upgrade Devanagari Regular";
+    text-decoration: none;
+}
+
+.row-categories {
+    padding: 0 10px;
+}
+.row-tab {
+    padding: 1rem;
+}
+
+.col-tab-first {
+    padding-left: 0;
+}
+
+.col-tab-last {
+    padding-right: 0;
+}
+
+.tab-h4 {
+    color: #776551;
+}
+
+.tab-li {
+    color: #9c5c5c;
+    font-family: "Upgrade Devanagari Regular";
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #d1af83;
+    border-color: #d1af83;
+    border-radius: 0;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #d1af83;
+    color: #5d2121;
+}
+
+.nav-link {
+    font-family: "Upgrade Devanagari Regular";
+    color: #5d2121;
+}
+
+.nav-tabs .nav-link {
+    border-radius: 0;
+}
+
+.tab-content {
+    border: 1px solid #d1af83;
+}
+
+.fs-18px {
+    font-size: 18px;
+}
+
+.img-box {
+    width: 181px;
+    height: 229px;
+    object-fit: cover;
+}
+
+.img-subtext {
+    font-size: 14px;
+    color: #5e4443;
+    font-family: "Upgrade Devanagari Regular";
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.footer-top-block {
+    background-color: #5e4443;
+    padding: 40px 10px;
+}
+
+.footer-top-text {
+    color: #f2ce9e;
+    font-family: "Upgrade Devanagari Medium";
+    font-size: 14px;
+}
+
+.footer-p {
+    color: #fff;
+    margin-bottom: 0;
+    font-family: "Upgrade Devanagari Regular";
+    font-size: 12px;
+}
+
+.footer-menu-list {
+    list-style: none;
+}
+.footer-menu-item a {
+    font-family: "Upgrade Devanagari Regular";
+    color: #f2ce9e;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-bottom-block {
+    background-color: #5e2121;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.social-media-icon {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.text-footer-bottom-block-center {
+    text-align: center;
+}
+
+.text-footer-bottom-block-right {
+    text-align: right;
+}
